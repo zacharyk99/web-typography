@@ -61,7 +61,11 @@ header p:nth-of-type(2) {
 }
 
 header p:nth-of-type(3) {
-  padding-top: 0.2rem;
+  padding-top: 0.3rem;
+}
+
+main .plot h2 {
+  padding-top: 0;
 }
 
 footer {

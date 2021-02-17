@@ -56,12 +56,20 @@ header {
             padding-top: 0.3rem;
         }
         &:nth-of-type(3) {
-            padding-top: 0.2rem;
+            padding-top: 0.3rem;
         }
     }
 }
 
-main {}
+main {
+    .plot {
+        h2 {
+            padding-top: 0;
+        }
+    }
+    .characters {}
+    .adaptations {}
+}
 
 footer {
     font-size: 1.8rem;
