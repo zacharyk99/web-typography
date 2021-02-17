@@ -1,1 +1,62 @@
- 
+/* You’re trying to make something beautiful and enticing to read. You should be thinking of ways to draw in the users interest and attention, while making sure careful attention is paid to readability. The text provided is plain, your result should be anything but! Embrace the fundamental design principles, scrutinize, adjust, and scrutinize again! Let the content drive the theme and tone of your design. Find relationships between what the article is about and the design decisions you’re making. The title is a great chance to play and be creative. It’s also the first thing a reader will look at, so be sure to use it as an opportunity to excite them about the article. Large type, background images, and playful colors are just a few options. Above all else, look for inspiration before you begin. It’s ok to be influenced by someone else’s work, just be careful not to copy them entirely. */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: linear-gradient(#0ff 0.1rem, transparent 0.1rem);
+    background-size: auto 2.7rem;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    width: calc(100% * 4/5);
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+header {
+    padding: 2.7rem 0;
+    h1 {
+        font-family: 'Homemade Apple', cursive;
+        font-size: 8.1rem;
+        text-align: center;
+    }
+    p {
+        &:nth-of-type(1) {
+            color: #f00;
+        }
+        &:nth-of-type(2) {
+            color: #0f0;
+        }
+        &:nth-of-type(3) {
+            color: #00f;
+        }
+        margin-top: 1.8rem;
+        text-align: left;
+    }
+}
+
+main {
+    div {
+        margin-bottom: 4rem;
+    }
+    h2 {
+        font-family: 'Homemade Apple', cursive;
+        font-size: 3.375rem;
+    }
+    h3 {
+        font-family: 'Homemade Apple', cursive;
+        font-size: 2.25rem;
+    }
+}
+
+footer {
+    p {
+        font-family: initial;
+    }
+}
