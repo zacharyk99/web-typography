@@ -3,14 +3,14 @@
 /* GitHub broke the vertical rhythm...  */
 html {
   font-size: 10px;
-  background-color: navy;
+  background-color: black;
 }
 
 .container {
   background-color: white;
   padding: 0 1.8rem;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.1rem, #0ff), color-stop(0.1rem, transparent));
-  background-image: linear-gradient(#0ff 0.1rem, transparent 0.1rem);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.1rem, rgba(255, 0, 0, 0.5)), color-stop(0.1rem, transparent));
+  background-image: linear-gradient(rgba(255, 0, 0, 0.5) 0.1rem, transparent 0.1rem);
   background-size: auto 2.7rem;
   margin: 0 auto;
   width: calc(100% * 3/5);
@@ -19,11 +19,15 @@ html {
 h1 {
   font-family: 'Alegreya SC', serif;
   font-size: 9.113rem;
+  -webkit-text-decoration: underline solid black 0.5rem;
+          text-decoration: underline solid black 0.5rem;
 }
 
 h2 {
   font-family: 'Alegreya SC', serif;
   font-size: 6.075rem;
+  -webkit-text-decoration: underline solid black 0.3rem;
+          text-decoration: underline solid black 0.3rem;
 }
 
 h3 {
@@ -63,7 +67,14 @@ header p:nth-of-type(2) {
 
 header p:nth-of-type(3) {
   padding-top: 0.3rem;
-  margin-bottom: 2.4rem;
+  margin-bottom: 3.5rem;
+}
+
+main div {
+  border: 0.5rem solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
 }
 
 main .plot p:nth-of-type(1) {
@@ -75,7 +86,7 @@ main .plot p:nth-of-type(2) {
 }
 
 main .plot p:nth-of-type(3) {
-  padding-top: 2.8rem;
+  padding-top: 3rem;
 }
 
 main .plot p:nth-of-type(4) {
@@ -87,7 +98,7 @@ main .plot p:nth-of-type(5) {
 }
 
 main .plot p:nth-of-type(6) {
-  padding-top: 3rem;
+  padding-top: 3.1rem;
 }
 
 main .plot p:nth-of-type(7) {
@@ -96,15 +107,58 @@ main .plot p:nth-of-type(7) {
 
 main .plot p:nth-of-type(8) {
   padding-top: 3.1rem;
-  margin-bottom: 5.2rem;
 }
 
 main .characters h2 {
-  margin-bottom: 3.7rem;
+  margin-bottom: 3.8rem;
 }
 
 main .characters h3:nth-of-type(1) {
   margin-bottom: 3rem;
+}
+
+main .characters h3:nth-of-type(2) {
+  margin: 1.4rem 0;
+}
+
+main .characters h3:nth-of-type(3) {
+  margin: 1.3rem 0;
+}
+
+main .characters h3:nth-of-type(4) {
+  margin: 1.7rem 0;
+}
+
+main .characters h3:nth-of-type(5) {
+  margin: 1.4rem 0;
+}
+
+main .characters h3:nth-of-type(6) {
+  margin: 1.5rem 0;
+}
+
+main .characters h3:nth-of-type(7) {
+  margin: 1.3rem 0;
+}
+
+main .characters h3:nth-of-type(8) {
+  margin: 2.8rem 0;
+}
+
+main .characters p {
+  margin-top: 3rem;
+}
+
+main .adaptations h3:nth-of-type(1) {
+  margin-top: 3.8rem;
+}
+
+main .adaptations h3:nth-of-type(2) {
+  margin-top: 1.9rem;
+}
+
+main .adaptations p {
+  margin-top: 2.9rem;
 }
 
 footer {
@@ -113,11 +167,16 @@ footer {
   color: #4b4c4d;
 }
 
+footer h4 {
+  margin: 0.8rem 0;
+}
+
 footer a {
   text-decoration: none;
 }
 
 footer p {
+  margin-top: 0.5rem;
   font-family: initial;
 }
 /*# sourceMappingURL=styles.css.map */

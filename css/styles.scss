@@ -5,13 +5,13 @@
 
 html {
     font-size: 10px;
-    background-color: navy;
+    background-color: black;
 }
 
 .container {
     background-color: white;
     padding: 0 1.8rem;
-    background-image: linear-gradient(#0ff 0.1rem, transparent 0.1rem);
+    background-image: linear-gradient(rgba(255, 0, 0, 0.5) 0.1rem, transparent 0.1rem);
     background-size: auto 2.7rem;
     margin: 0 auto;
     width: calc(100% * 3/5);
@@ -20,11 +20,13 @@ html {
 h1 {
     font-family: 'Alegreya SC', serif;
     font-size: 9.113rem;
+    text-decoration: underline solid black 0.5rem;
 }
 
 h2 {
     font-family: 'Alegreya SC', serif;
     font-size: 6.075rem;
+    text-decoration: underline solid black 0.3rem;
 }
 
 h3 {
@@ -60,12 +62,18 @@ header {
         }
         &:nth-of-type(3) {
             padding-top: 0.3rem;
-            margin-bottom: 2.4rem;
+            margin-bottom: 3.5rem;
         }
     }
 }
 
 main {
+    div {
+        border: 0.5rem solid black;
+        border-radius: 1rem;
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
     .plot {
         p {
             &:nth-of-type(1) {
@@ -75,7 +83,7 @@ main {
                 padding-top: 2.9rem;
             }
             &:nth-of-type(3) {
-                padding-top: 2.8rem;
+                padding-top: 3rem;
             }
             &:nth-of-type(4) {
                 padding-top: 2.9rem;
@@ -84,39 +92,77 @@ main {
                 padding-top: 2.9rem;
             }
             &:nth-of-type(6) {
-                padding-top: 3rem;
+                padding-top: 3.1rem;
             }
             &:nth-of-type(7) {
                 padding-top: 3.1rem;
             }
             &:nth-of-type(8) {
                 padding-top: 3.1rem;
-                margin-bottom: 5.2rem;
             }
         }
     }
     .characters {
         h2 {
-            margin-bottom: 3.7rem;
+            margin-bottom: 3.8rem;
         }
         h3 {
             &:nth-of-type(1) {
                 margin-bottom: 3rem;
             }
+            &:nth-of-type(2) {
+                margin: 1.4rem 0;
+            }
+            &:nth-of-type(3) {
+                margin: 1.3rem 0;
+            }
+            &:nth-of-type(4) {
+                margin: 1.7rem 0;
+            }
+            &:nth-of-type(5) {
+                margin: 1.4rem 0;
+            }
+            &:nth-of-type(6) {
+                margin: 1.5rem 0;
+            }
+            &:nth-of-type(7) {
+                margin: 1.3rem 0;
+            }
+            &:nth-of-type(8) {
+                margin: 2.8rem 0;
+            }
         }
-        p {}
+        p {
+            margin-top: 3rem;
+        }
     }
-    .adaptations {}
+    .adaptations {
+        h3 {
+            &:nth-of-type(1) {
+                margin-top: 3.8rem;
+            }
+            &:nth-of-type(2) {
+                margin-top: 1.9rem;
+            }
+        }
+        p {
+            margin-top: 2.9rem;
+        }
+    }
 }
 
 footer {
     font-size: 1.8rem;
     padding: 40px 0;
     color: #4b4c4d;
+    h4 {
+        margin: 0.8rem 0;
+    }
     a {
         text-decoration: none;
     }
     p {
+        margin-top: 0.5rem;
         font-family: initial;
     }
 }
