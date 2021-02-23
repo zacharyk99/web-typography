@@ -2,19 +2,18 @@
 /* You’re trying to make something beautiful and enticing to read. You should be thinking of ways to draw in the users interest and attention, while making sure careful attention is paid to readability. The text provided is plain, your result should be anything but! Embrace the fundamental design principles, scrutinize, adjust, and scrutinize again! Let the content drive the theme and tone of your design. Find relationships between what the article is about and the design decisions you’re making. The title is a great chance to play and be creative. It’s also the first thing a reader will look at, so be sure to use it as an opportunity to excite them about the article. Large type, background images, and playful colors are just a few options. Above all else, look for inspiration before you begin. It’s ok to be influenced by someone else’s work, just be careful not to copy them entirely. */
 html {
   font-size: 10px;
-  width: 62.5%;
   margin: 0 auto;
-  background-color: black;
+  background-color: #161c3e;
+  width: calc(100% * 5/8);
 }
 
 .container {
-  background-color: papayawhip;
+  background-color: cornsilk;
   padding: 0 1.8rem;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.1rem, rgba(255, 0, 0, 0.5)), color-stop(0.1rem, transparent));
   background-image: linear-gradient(rgba(255, 0, 0, 0.5) 0.1rem, transparent 0.1rem);
   background-size: auto 2.7rem;
   margin: 0 auto;
-  width: calc(100% * 5/8);
 }
 
 h1 {
@@ -48,48 +47,52 @@ p {
   line-height: 1.5;
 }
 
-header h1 {
-  margin: 0.9rem 0;
+body header h1 {
   text-align: center;
 }
 
-header p {
-  margin: 2.7rem 0;
+body header p {
+  margin: 2.6rem 0;
 }
 
-main div {
-  border: calc(0.9rem/2) solid black;
-  border-radius: 0.9rem;
+body main div {
+  border: calc(0.9rem/2) solid #161c3e;
+  border-radius: 2rem;
   padding: 1.8rem;
   margin-bottom: 1.8rem;
 }
 
-main .plot p {
-  margin-top: 0rem;
+body main .plot p {
+  margin: 5.4rem 0;
 }
 
-main .characters img {
-  width: 100%;
+body main .characters h2 {
+  margin: 1.1rem 0;
 }
 
-main .characters h2 {
-  margin-top: 0rem;
+body main .characters h3 {
+  margin: 1.1rem 0;
 }
 
-main .characters h3 {
-  margin-top: 0rem;
+body main .characters p {
+  margin: 1.9rem 0;
 }
 
-main .characters p {
-  margin-top: 0rem;
+body main .characters .fine-print {
+  font-style: italic;
+  font-size: calc(1.9rem * 3/4);
 }
 
-main .adaptations h3 {
-  margin-top: 0rem;
+body main .adaptations h2 {
+  margin: 0.7rem 0;
 }
 
-main .adaptations p {
-  margin-top: 0rem;
+body main .adaptations h3 {
+  margin: 1.4rem 0;
+}
+
+body main .adaptations p {
+  margin: 2.3rem 0;
 }
 
 footer {
@@ -99,7 +102,7 @@ footer {
 }
 
 footer h4 {
-  margin-top: 0rem;
+  margin: 0.8rem 0;
 }
 
 footer a {
@@ -107,7 +110,7 @@ footer a {
 }
 
 footer p {
-  margin: 0rem;
+  margin: 0.4rem 0;
   font-family: initial;
 }
 /*# sourceMappingURL=styles.css.map */
